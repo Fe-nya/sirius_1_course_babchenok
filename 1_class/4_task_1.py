@@ -1,0 +1,6 @@
+one = int(input())
+two = int(input())
+three = int(input())
+print(sum([one, two, three]))
+print(max([one, two, three]))
+print(min([one, two, three]))
