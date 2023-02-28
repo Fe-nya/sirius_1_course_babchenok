@@ -1,0 +1,5 @@
+n = input()
+dog = n.find('@')
+two = n.find(' ', dog)
+one = n.rfind(' ', 0, dog)
+print(n[one:two])
